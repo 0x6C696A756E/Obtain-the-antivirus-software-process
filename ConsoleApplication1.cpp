@@ -27,7 +27,7 @@ struct ci_less {
 multimap<string, string, ci_less> AntivirusMultimap;//杀毒软件初始化表
 int Antiviruscount = 0;//杀毒软件进程个数
 HANDLE consolehwnd;//创建控制台句柄 实现输出颜色字体
-//函数申明
+//函数声明
 string WideCharToMultiByte(const wchar_t* wideString);//宽字节类型转普通string
 void AntivirusMultimap_init();//杀毒软件初始化函数
 
